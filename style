@@ -34,12 +34,12 @@ tr:hover {
     background-color: #e0e0e0;
 }
 
-/* Change the text color to red for league tables */
-table.league-table {
-    color: red;
-}
-
 /* Change the text color to green for league tables */
 table.league-table td {
     color: green;
+}
+
+/* Change the text color to red for other tables */
+table:not(.league-table) td {
+    color: red;
 }
